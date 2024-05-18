@@ -1,0 +1,11 @@
+# Database - required to run the server #
+
+database:
+  # The default settings is set to SQLite database #
+  type: 'SQLite' # SQLite, MySQL or MYSQL-HIKARI
+  sqlite-file: 'nerdflix.db'
+  # If MySQL, please set the options down #
+  host: 'localhost'
+  user: 'root'
+  password: ''
+  database: 'nerdflix'

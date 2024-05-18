@@ -1,0 +1,5 @@
+# General options for Nerdflix Server #
+
+global-rate-limit: 100 # req/s
+send-errors-to-discord: false
+discord-webhook-url: '' # if option above = true
